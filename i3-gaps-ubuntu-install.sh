@@ -14,7 +14,7 @@ cd i3-gaps
 mkdir -p build && cd build
 meson ..
 ninja
-meson install
+sudo meson install
 
 
 # OLD INSTALL I3-GAPS WM
